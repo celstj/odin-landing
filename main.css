@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+#header{
+    padding: 0 100px 0 120px;
+
+}
+.section {
+    padding: 70px;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#one {
+    display: flex;
+    justify-content: center;
+}
+
+#header, #one, footer {
+   background-color: #1F2937; 
+}
+
+
+header{
+    display: inline-block;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#secondary{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+nav {
+    display: inline-block;
+    align-self: flex-end;
+}
+
+a {
+    color: #F9FAF8;
+}
+
+h2 {
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px;
+    text-align:start;
+    padding-right: 20px;
+    margin: 20px 20px 0 20px;
+}
+
+p {
+    margin: 0 0 20px 20px;
+}
+
+.oneimg {
+    width: 300px;
+    height: 150px;
+    background-color: grey;
+    margin-top: 20px;
+}
+
+#infotitle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: -20px;
+}
+
+.flexbox {
+    display: flex;
+
+    justify-items: space-around;
+}
+
+#flexborder {
+    text-align: center;
+}
+
+.fleximg {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+#flextext {
+    color: #1F2937;
+    text-align: center;
+} 
+
+#three {
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+#quote {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+}
+
+#quoteauthor {
+    text-align: end;
+    font-weight: bold;
+}
+
+.cta {
+    width: 800px;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ctatitle {
+    color: white;
+    font-weight: bold;
+    margin: 10px 0 5px 40px;
+
+}
+
+#ctap {
+    color: white;
+    margin: 0 0 5px 40px;
+
+}
+
+#ctalink {
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 20px;
+    margin: 10px 20px 5px 10px;
+}
+
+footer {
+    color: white;
+    margin: 0;
+    height: 80px;
+}
+
+#footertext {
+    padding: 30px;
+    text-align: center;
+}
